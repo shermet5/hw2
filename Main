@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+        Shape shape = new Shape();
+        shape.setVolume(35);
+        Box box = new Box();
+        box.setVolume(100);
+        box.add(shape);
+    }
+}
